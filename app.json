@@ -1,0 +1,49 @@
+{
+    "env": {
+        "SESSION_STRING": {
+            "description": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "",
+            "required": true
+        },
+        "BLACKLIST_CHAT": {
+            "description": "",
+            "required": false,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "",
+            "required": true
+        },
+        "LOG_UBOT": {
+            "description": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "",
+            "required": false,
+            "value": ""
+        },
+        "MONGO_URL": {
+            "description": "",
+            "required": true
+        },
+        "COMMAND": {
+            "description": "",
+            "required": true
+        },
+        "TEXT_PAYMENT": {
+            "description": "",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {"url": "heroku/python"}
+    ]
+}
